@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark: #000;
+    --red: rgb(242, 39, 39);
+    --font-cursive: 'Ephesis', cursive;
+    --font-secondary: 'Dancing Script', cursive;
+}
+
+.container {
+    padding: 10px;
+    max-width: 1640px;
+    margin: 0 auto;
+}
+
+
+
+h1 {
+    font-size: 3rem;
+    white-space: pre;
+    font-family: var(--font-cursive);
+}
+
+.main {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greetings span {
+    color: var(--red);
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
